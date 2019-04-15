@@ -8,6 +8,7 @@ verify_ssl = true
 [packages]
 flask = "*"
 wechatpy = {extras = ["cryptography"],version = "*"}
+gunicorn = "*"
 
 [requires]
 python_version = "3.6"
